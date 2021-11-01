@@ -250,4 +250,7 @@ dist
 # and uncomment the following lines
 # .pnp.*
 
+
+.dbdata
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,intellij+all,yarn
