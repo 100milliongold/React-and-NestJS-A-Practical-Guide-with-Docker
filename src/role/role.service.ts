@@ -18,7 +18,7 @@ export class RoleService {
     }
 
     async findOne(condition) : Promise<Role> {
-        return this.roleRepositiry.findOne(condition)
+        return this.roleRepositiry.findOne(condition, { relations: ['permissions'] })
     }
 
     async update(id: number , data ) : Promise<any> {
