@@ -5,6 +5,7 @@ import { RegisterDto } from './models/register.dto';
 import {JwtService} from "@nestjs/jwt";
 import {Request, Response} from 'express'
 import { AuthGuard } from './auth.guard';
+import { AuthService } from './auth.service';
 
 @UseInterceptors(ClassSerializerInterceptor)
 @Controller()
@@ -13,6 +14,7 @@ export class AuthController {
     constructor(
         private userService: UserService,
         private jwtService: JwtService,
+        private authService: AuthService
     ){}
 
     @Post('register')
@@ -60,10 +62,8 @@ export class AuthController {
     async user(
         @Req() request : Request
     ){
-        const cookie = request.cookies['jwt'];
-        const data = await this.jwtService.verifyAsync(cookie);
-
-        return this.userService.findOne({ id : data['id'] });
+        const id = await this.authService.userId(request);
+        return this.userService.findOne({ id });
     }
 
     @UseGuards(AuthGuard)
