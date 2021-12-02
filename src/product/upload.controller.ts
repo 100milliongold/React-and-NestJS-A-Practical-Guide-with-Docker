@@ -24,7 +24,7 @@ export class UploadController {
     }
 
     @Get('uploads/:path')
-    async getImmage(
+    async getImage(
         @Param('path') path,
         @Res() res: Response
         ){
