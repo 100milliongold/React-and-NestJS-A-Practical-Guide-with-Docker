@@ -12,4 +12,6 @@ INSERT INTO admin.permissions (id,name) VALUES
 	 (5,'view_products'),
 	 (6,'edit_products'),
 	 (7,'view_orders'),
-	 (8,'edit_orders');
+	 (8,'edit_orders'),
+    (9,'view_permissions'),
+    (10,'edit_permissions');
