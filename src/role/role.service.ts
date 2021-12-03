@@ -5,10 +5,10 @@ import { Repository } from 'typeorm';
 import { Role } from './role.entity';
 
 @Injectable()
-export class RoleService extends AbstractService{
+export class RoleService extends AbstractService {
     constructor(
-        @InjectRepository(Role) private readonly roleRepositiry : Repository<Role>
-    ){
-        super(roleRepositiry);
+        @InjectRepository(Role) private readonly roleRepository: Repository<Role>
+    ) {
+        super(roleRepository);
     }
 }
