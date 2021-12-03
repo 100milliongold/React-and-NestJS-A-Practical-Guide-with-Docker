@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/react-admin/src/components/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/components/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-admin/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-admin/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638513603903</updated>
-      <workItem from="1638513606428" duration="12062000" />
+      <workItem from="1638513606428" duration="13477000" />
     </task>
     <servers />
   </component>
