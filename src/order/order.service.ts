@@ -28,4 +28,14 @@ export class OrderService extends AbstractService {
             meta
         }
     }
+
+    async chart(){
+        return this.orderRepository.query(`
+            SELECT DATE_FORMAT(o.created_at, '%Y-%m-%d') as date, SUM(i.price * i.quantity) as sum
+            FROM orders o
+            JOIN order_items i ON o.id = i.order_id
+            GROUP BY date;
+        `)
+    }
+
 }
