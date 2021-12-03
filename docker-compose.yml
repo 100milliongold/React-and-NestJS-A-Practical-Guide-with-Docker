@@ -1,15 +1,14 @@
 version: '3.9'
 services:
-  backend:
-    build: .
-    ports:
-      - 8000:3000
-    volumes:
-      - .:/app
-    depends_on:
-      - db
   db:
-    image: mysql:5.7.22
+    image: mysql/mysql-server:8.0.23
+    command:
+      [
+        'mysqld',
+        '--default-authentication-plugin=mysql_native_password',
+        '--character-set-server=utf8mb4',
+        '--collation-server=utf8mb4_unicode_ci',
+      ]
     restart: always
     environment:
       MYSQL_DATABASE: admin
@@ -20,4 +19,12 @@ services:
       - .dbdata:/var/lib/mysql
     ports:
       - 33066:3306
-    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+  backend:
+    build: .
+    ports:
+      - 8000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - db
