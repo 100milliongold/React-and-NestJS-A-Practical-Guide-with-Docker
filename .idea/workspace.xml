@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/react-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-admin/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-admin/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-admin/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-admin/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-admin/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/backend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638513603903</updated>
-      <workItem from="1638513606428" duration="11361000" />
+      <workItem from="1638513606428" duration="12062000" />
     </task>
     <servers />
   </component>
