@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/auth/models/register.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/common/abstract.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/common/common.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/common/paginated-result.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/order/order-item.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/order/order.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/order/order.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/order/order.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/order/order.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/has-permission.decorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product-create.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product-update.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/product.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/product.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/product/upload.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/role/role.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/role/role.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/role/role.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/role/role.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user-create.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user-update.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/user.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/user/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/models/register.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/abstract.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/common.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/paginated-result.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/order-item.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/order.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/order.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/order.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/order.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/has-permission.decorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/permission.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/permission.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/permission.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/permission.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission/permission.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/models/product-create.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/models/product-update.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/models/product.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/upload.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/role/role.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/role/role.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/role/role.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/role/role.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/models/user-create.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/models/user-update.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/models/user.entity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/user.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="21lRHm9BDaLABRwNPLIKGrYxcmA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;mysql" />
+    <property name="RunConfigurationTargetLRU" value="aaa00a2b-0f17-4ff0-8362-6cc2b65ff46b/schema/&quot;admin&quot;" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/permission" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="permission.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/permission.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="aaa00a2b-0f17-4ff0-8362-6cc2b65ff46b" namespace="schema/&quot;admin&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="데이터베이스 스크립트.permission.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="" />
+      <created>1638513603903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638513603903</updated>
+      <workItem from="1638513606428" duration="11019000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
