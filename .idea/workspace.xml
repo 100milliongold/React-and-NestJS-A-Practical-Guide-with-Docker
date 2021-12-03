@@ -5,109 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/auth/models/register.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/common/abstract.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/common/common.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/common/paginated-result.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/order/order-item.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/order/order.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/order/order.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/order/order.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/order/order.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/has-permission.decorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/permission/permission.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product-create.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product-update.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/models/product.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/product.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/product.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/product.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/product/upload.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/role/role.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/role/role.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/role/role.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/role/role.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user-create.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user-update.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/models/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/user.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/user.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/user/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/reportWebVitals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/models/register.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/abstract.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/common.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/paginated-result.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/order-item.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/order.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/order.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/order.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/order.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/has-permission.decorator.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/permission.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/permission.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/permission.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/permission.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permission/permission.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/models/product-create.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/models/product-update.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/models/product.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/product.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/product.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/product.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/upload.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/role/role.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/role/role.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/role/role.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/role/role.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/user-create.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/user-update.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/models/user.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638513603903</updated>
-      <workItem from="1638513606428" duration="11019000" />
+      <workItem from="1638513606428" duration="11361000" />
     </task>
     <servers />
   </component>
