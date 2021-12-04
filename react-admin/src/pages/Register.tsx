@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import Wrapper from "../components/Wrapper";
 
-class Dashboard extends Component {
+export default class Register extends Component {
   render() {
-    return <Wrapper>Dashboard</Wrapper>;
+    return <Wrapper>Register </Wrapper>;
   }
 }
-
-export default Dashboard;
