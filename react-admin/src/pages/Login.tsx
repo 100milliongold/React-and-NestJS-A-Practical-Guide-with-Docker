@@ -9,7 +9,7 @@ export default function Login() {
 
   const submit = async (e: SyntheticEvent) => {
     e.preventDefault();
-    const { data } = await axios.post(
+    await axios.post(
       "/api/login",
       {
         email,
