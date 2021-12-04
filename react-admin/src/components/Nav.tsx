@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const [user, setUser] = useState({
@@ -14,8 +15,11 @@ export default function Nav() {
       const { data } = await axios.get("user");
       setUser(data);
     })();
-    return () => {};
   }, []);
+
+  const logout = async () => {
+    await axios.post("logout", {});
+  };
 
   return (
     <nav className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
@@ -24,12 +28,16 @@ export default function Nav() {
       </a>
 
       <ul className="my-2 my-md-0 mr-md-3">
-        <a className="p-2 text-white text-decoration-none" href="#">
+        <Link to={"/profile"} className="p-2 text-white text-decoration-none">
           {user?.first_name}
-        </a>
-        <a className="p-2 text-white text-decoration-none" href="#">
+        </Link>
+        <Link
+          className="p-2 text-white text-decoration-none"
+          to={"/login"}
+          onClick={logout}
+        >
           Sign out
-        </a>
+        </Link>
       </ul>
     </nav>
   );
