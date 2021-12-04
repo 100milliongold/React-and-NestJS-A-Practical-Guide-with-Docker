@@ -138,6 +138,9 @@ backend/build/Release
 # Dependency directories
 backend/node_modules/
 backend/jspm_packages/
+react-admin/node_modules/
+react-admin/jspm_packages/
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 backend/web_modules/
