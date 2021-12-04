@@ -9,14 +9,10 @@ export default function Login() {
 
   const submit = async (e: SyntheticEvent) => {
     e.preventDefault();
-    await axios.post(
-      "/api/login",
-      {
-        email,
-        password,
-      },
-      { withCredentials: true }
-    );
+    await axios.post("login", {
+      email,
+      password,
+    });
 
     setRedirect(true);
   };

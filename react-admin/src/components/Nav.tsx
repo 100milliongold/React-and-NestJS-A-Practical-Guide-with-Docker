@@ -11,7 +11,7 @@ export default function Nav() {
 
   useEffect(() => {
     (async () => {
-      const { data } = await axios.get("/api/user", { withCredentials: true });
+      const { data } = await axios.get("user");
       setUser(data);
     })();
     return () => {};
