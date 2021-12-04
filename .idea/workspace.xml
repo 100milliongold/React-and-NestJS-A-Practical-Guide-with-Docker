@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="375dcf72-8223-4895-983e-22e0045a2090" name="변경" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-admin/src/pages/Dashboard.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/react-admin/src/pages/Users.tsx" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/react-admin/src/components/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-admin/src/components/Nav.tsx" afterDir="false" />
+>>>>>>> e7434c5ed592a2e67069afff68638ea623dd67c8
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-admin/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-admin/src/App.tsx" afterDir="false" />
     </list>
@@ -86,7 +91,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638513603903</updated>
+<<<<<<< HEAD
       <workItem from="1638513606428" duration="14893000" />
+=======
+      <workItem from="1638513606428" duration="13477000" />
+>>>>>>> e7434c5ed592a2e67069afff68638ea623dd67c8
     </task>
     <servers />
   </component>
