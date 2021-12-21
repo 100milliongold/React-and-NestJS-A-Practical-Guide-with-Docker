@@ -5,6 +5,8 @@ import Dashboard from "./pages/Dashboard";
 import Users from "./pages/users/Users";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import UserCreate from "./pages/users/UserCreate";
+import UserEdit from "./pages/users/UserEdit";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path={"/users"} element={<Users />} />
           <Route path={"/register"} element={<Register />} />
           <Route path={"/login"} element={<Login />} />
+          <Route path={"/users/create"} element={<UserCreate />} />
+          <Route path={"/users/:id/edit"} element={<UserEdit />} />
         </Routes>
       </BrowserRouter>
     </div>

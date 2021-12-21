@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Wrapper from "../../components/Wrapper";
 import { User } from "../../models/user";
+import { Link } from "react-router-dom";
 
 export default function Users() {
   const [users, setUsers] = useState([]);
@@ -32,6 +33,11 @@ export default function Users() {
 
   return (
     <Wrapper>
+      <div className="pt-3 pd-2 mb-3 border-bottom">
+        <Link to="/users/create" className="btn btn-sm btn-outline-secondary">
+          add
+        </Link>
+      </div>
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
@@ -54,6 +60,12 @@ export default function Users() {
                 <td>{user.role.name}</td>
                 <td>
                   <div className="btn-group mr-2">
+                    <Link
+                      to={`/users/${user.id}/edit`}
+                      className="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </Link>
                     <a
                       href="#"
                       className="btn btn-sm btn-outline-secondary"
