@@ -21,6 +21,11 @@ export default function Roles() {
   };
   return (
     <Wrapper>
+      <div className="pt-3 pd-2 mb-3 border-bottom">
+        <Link to="/roles/create" className="btn btn-sm btn-outline-secondary">
+          add
+        </Link>
+      </div>
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
