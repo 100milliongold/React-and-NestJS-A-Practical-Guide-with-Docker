@@ -40,6 +40,16 @@ const Menu = () => {
               Roles
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              to={"/products"}
+              className={(navData) =>
+                navData.isActive ? "nav-link active" : "nav-link"
+              }
+            >
+              Products
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
