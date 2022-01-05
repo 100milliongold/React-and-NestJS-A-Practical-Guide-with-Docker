@@ -3,6 +3,7 @@ import axios from "axios";
 import Wrapper from "../../components/Wrapper";
 import { User } from "../../models/user";
 import { Link } from "react-router-dom";
+import Paginator from "../../components/Paginator";
 
 export default function Users() {
   const [users, setUsers] = useState([]);
@@ -16,13 +17,6 @@ export default function Users() {
       setLastPage(data.meta.last_page);
     })();
   }, [page]);
-
-  const next = () => {
-    if (page < lastPage) setPage(page + 1);
-  };
-  const prev = () => {
-    if (page >= 1) setPage(page - 1);
-  };
 
   const del = async (id: number) => {
     if (window.confirm(`Are you sure you want to delete this record?`)) {
@@ -81,21 +75,7 @@ export default function Users() {
         </table>
       </div>
 
-      <nav aria-label="Page navigation example">
-        <ul className="pagination">
-          <li className="page-item">
-            <a className="page-link" href="#" onClick={prev}>
-              Previous
-            </a>
-          </li>
-
-          <li className="page-item">
-            <a className="page-link" href="#" onClick={next}>
-              Next
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Paginator page={page} lastPage={lastPage} pageChanged={setPage} />
     </Wrapper>
   );
 }
